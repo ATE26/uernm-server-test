@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Association Étudiante</title>
+    <!-- Link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link your custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">UERNM</a>
+        <!-- Responsive Navbar Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#students">Étudiants</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#events">Événements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#members">Membres du Bureau</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formations.html">Formations</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container py-5">
+        <section id="registration" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Formulaire d'Inscription</h2>
+                <!-- Form for event registration -->
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nom Complet</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Adresse Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Numéro de Téléphone</label>
+                        <input type="tel" class="form-control" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="event">Événement</label>
+                        <input type="text" class="form-control" id="event" readonly>
+                    </div>
+                    <button type="submit" class="btn btn-primary">S'inscrire</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Association Étudiante. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Link Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Your custom JavaScript -->
+    <script src="registration.js"></script>
+</body>
+
+</html>

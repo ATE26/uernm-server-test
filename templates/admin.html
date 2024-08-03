@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administration - Association Étudiante</title>
+  <!-- Link Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Link your custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Link Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center my-4">Administration - Inscriptions des Étudiants</h2>
+    <div id="studentsTable" class="mb-4">
+      <!-- Table of students will be dynamically populated here -->
+    </div>
+    <div class="text-center">
+      <button id="downloadExcel" class="btn btn-success">Télécharger le fichier Excel</button>
+    </div>
+  </div>
+
+  <!-- Link Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Your custom JavaScript -->
+  <script src="admin.js"></script>
+</body>
+</html>

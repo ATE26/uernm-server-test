@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formations</title>
+  <!-- Link Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Link your custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">UERNM</a>
+    <!-- Responsive Navbar Toggler -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" id="nav-accueil" href="index.html">Accueil</a>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#students">Étudiants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Événements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#members">Membres du Bureau</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="formations.html">Formations</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container py-5">
+    <h1 class="text-center mb-4">Formations</h1>
+
+    <!-- Video Section -->
+    <section id="videos" class="mb-5">
+      <h2 class="text-center mb-3">Formations en Vidéo</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="video-thumbnail" data-video-url="Formation-3.mp4" data-video-type="local">
+            <img src="/images/thumbnail1.png" alt="Formation 1">
+            <div class="play-button"></div>
+        </div>
+        <h5 class="mt-2">Formation 1: Oser parler en public </h5>
+        <p>Développer son éloquence avec Bertrand Périer - Leçon 1</p>
+        </div>
+        <div class="col-md-6">
+          <div class="video-thumbnail" data-video-url="Formation-2.mp4" data-video-type="local">
+            <img src="/images/thumbnail2.png" alt="Formation 2">
+            <div class="play-button"></div>
+        </div>
+        <h5 class="mt-2">Formation 2: Prendre la parole en réunion</h5>
+        <p>Développer son éloquence, avec Bertrand Périer - Leçon 2</p>
+        </div>
+        <div class="col-md-6">
+          <div class="video-thumbnail" data-video-url="Formation-1.mp4" data-video-type="local">
+            <img src="/images/thumbnail3.png" alt="Formation 3">
+            <div class="play-button"></div>
+        </div>
+        <h5 class="mt-2">Formation 3: Maîtriser la communication de crise</h5>
+        <p>Développer son éloquence, avec Bertrand Périer - Leçon 3</p>
+        </div>
+        <!-- Add more video embeds as needed -->
+      </div>
+    </section>
+
+    <!-- PDF Section -->
+    <section id="pdfs">
+      <h2 class="text-center mb-3">Cours en PDF</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Cours 1</h5>
+              <p class="card-text">Description du cours 1.</p>
+              <a href="path_to_your_pdf_file.pdf" class="btn btn-primary" target="_blank">Voir le PDF</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Cours 2</h5>
+              <p class="card-text">Description du cours 2.</p>
+              <a href="path_to_your_pdf_file.pdf" class="btn btn-primary" target="_blank">Voir le PDF</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more cards for additional PDFs -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Association Étudiante. Tous droits réservés.</p>
+  </footer>
+
+  <!-- Link Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
